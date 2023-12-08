@@ -10,5 +10,6 @@ const optionsSchema = mongoose.Schema({
         text: {type: String}
     },
     type: { type: String },
+    user: { type: String },
 })
 module.exports = mongoose.model('Options', optionsSchema)
